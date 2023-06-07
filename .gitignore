@@ -1,0 +1,24 @@
+.idea
+Library
+Logs
+obj
+Packages
+ProjectSettings
+Temp
+UserSettings
+Assets/ExternalDependencyManager.meta
+Assets/GoogleMobileAds
+Assets/LeanTween
+Assets/Plugins
+Assets/Resources
+Assets/TextMesh Pro
+Assets/Scenes
+
+*.meta
+*.csproj
+*.md
+*.mdb
+*.dll
+*.txt
+
+LICENSE
