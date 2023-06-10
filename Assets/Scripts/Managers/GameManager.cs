@@ -57,7 +57,14 @@ namespace Managers
             upgradeCostDict = new Dictionary<string, int>();
             upgradeLevelDict = new Dictionary<string, int>();
             isRandInTowerDict = new Dictionary<Vector3, GameObject>();
+        }
 
+        private void ResetUpgrade()
+        {
+            upgradeDamageDict.Clear();
+            upgradeCostDict.Clear();
+            upgradeLevelDict.Clear();
+            
             var towerNames = DataManager.instance.towerInfo;
             
             foreach (var towerStat in towerNames)
@@ -111,6 +118,7 @@ namespace Managers
             currentGold = firstStageGold;
             isGameEnd = false;
             isWinState = false;
+            ResetUpgrade();
             StageLoad();
             RoundStart();
         }
