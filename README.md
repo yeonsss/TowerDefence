@@ -29,11 +29,6 @@ https://boiling-cowl-09d.notion.site/UFO-Castle-1a529a7664544578a9f2a5c36c7cc379
 
 <br/>
 
-### 시연 영상
-URL
-
-<br/>
-
 ### 개발기간 및 버전 관리
 | 버전 | 기간 | 업데이트 내용 |
 | --- | --- | --- |
